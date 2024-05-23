@@ -2,7 +2,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" } ],
   "build": {
-      "src": "Dockerfile",
       "use": "@vercel/docker"
     }
   
